@@ -99,6 +99,11 @@ header {
   padding-top: 100px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+@media (max-width:768px){
+ .landing{
+  background-color: #fbfbfb;
+ }
+}
 /* End Landing */
 
 /* Start About */
@@ -106,6 +111,11 @@ header {
   padding-top: 100px;
   background-color: rgb(0 0 0 / 82%);
 }
+@media (max-width:768px){
+  .about{
+  margin-top: 0;
+  }
+ }
 /* End About */
 
 /* Start Features */
