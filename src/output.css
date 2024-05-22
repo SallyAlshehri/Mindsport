@@ -1262,12 +1262,14 @@ header {
 /* Start Landing */
 
 .landing {
+  padding-top: 100px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width:768px){
   .landing{
     background-color: #fbfbfb;
+    padding-top: 50px;
   }
 }
 
