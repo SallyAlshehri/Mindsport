@@ -16,7 +16,7 @@
     />
     <link rel="stylesheet" href="../src/input.css" />
     <link href="./output.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../src/index.html">
+    <link rel="stylesheet" href="../index.html">
     <link rel="stylesheet" href="../src/about.html">
     <link rel="stylesheet" href="../src/services.html">
     <link rel="stylesheet" href="../src/contact.html">
@@ -155,34 +155,36 @@
           <h3 class="text-4xl mb-4">Get In Touch</h3>
           
           <form action="" class="flex flex-col gap-6">
-            <div class="name flex gap-2">
+            <div class="name flex gap-1  ">
               <input
                 type="text"
-                placeholder="Your Name"
-                class="px-4 py-4 bg-slate-100 max-sm:w-[150px]"
+                placeholder="Your First Name"
+                class="px-4 py-4 bg-slate-100 w-[50%] max-sm:w-[150px]" required
               />
               <input
                 type="text"
-                placeholder="last name"
-                class="px-4 py-4 bg-slate-100 max-sm:w-[150px]"
+                placeholder="Your Last Name"
+                class="px-4 py-4 bg-slate-100 w-[50%] max-sm:w-[150px]" required
               />
             </div>
 
             <input
               type="email"
               placeholder="Your Email"
-              class="px-4 py-4 bg-slate-100"
+              class="px-4 py-4 bg-slate-100" required
             />
-            <input type="tel" name="" id="" placeholder="Your Phone" class="px-4 py-4 bg-slate-100" />
+            <input type="tel" name="" id="" placeholder="Your Phone" class="px-4 py-4 bg-slate-100" required/>
             <textarea
               name=""
               id=""
               cols="30"
               rows="6"
-              class="bg-slate-100 resize-none"
+              placeholder="Write Your Message"
+              class="px-4 py-1 bg-slate-100 resize-none" required
             ></textarea>
             <div class="card-footer">
-              <a href="#">read more</a>
+              <button class="text-white">SEND</button>
+              <!-- <a href="#">Send</a> -->
             </div>
           </form>
         </div>
@@ -230,9 +232,7 @@
                 Mindsport
               </h3>
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+                Mindsport Chess Academy ignites a passion for chess through engaging, in-person instruction. We cater to players of all skill levels, fostering strategic thinking and a love for the game in a collaborative environment.
               </p>
               <div class="social-box">
                 <ul class="social max-md:justify-center">
@@ -268,16 +268,16 @@
                 Useful links
               </h6>
               <p class="mb-4">
-                <a href="#!">Home</a>
+                <a href="../index.html">Home</a>
               </p>
               <p class="mb-4">
-                <a href="#!">About</a>
+                <a href="./about.html">About</a>
               </p>
               <p class="mb-4">
-                <a href="#!">Services</a>
+                <a href="./services.html">Services</a>
               </p>
               <p>
-                <a href="#!">Contact</a>
+                <a href="./contact.html">Contact</a>
               </p>
             </div>
             <!-- Contact section -->

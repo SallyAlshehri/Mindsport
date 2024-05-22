@@ -288,7 +288,7 @@ input:focus::placeholder {
   background-color: black;
 }
 
-.content-side-two .card-footer a {
+.content-side-two .card-footer   {
   padding: 19px 22px;
 
   color: white;
