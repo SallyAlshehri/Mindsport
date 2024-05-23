@@ -1587,6 +1587,12 @@ footer .social-box .social li a {
 
 /* End Footer */
 
+@media(max-width:600px){
+  .contact-form .card{
+    width: 244px;
+  }
+}
+
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));

@@ -367,5 +367,10 @@ footer .social-box .social li a {
 
 
 /* End Footer */
+@media(max-width:600px){
+  .contact-form .card{
+    width: 244px;
+  }
+}
 
  
