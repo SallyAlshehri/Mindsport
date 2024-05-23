@@ -222,7 +222,7 @@ header {
   box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
   transition: 0.3s;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .classes .card {
     width: 289px;
    }

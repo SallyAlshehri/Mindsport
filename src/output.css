@@ -1435,11 +1435,11 @@ header {
   transition: 0.3s;
 }
 
-@media (max-width: 768px) {
- .classes .card {
-  width: 289px;
-  }
-}
+@media (max-width: 1024px) {
+  .classes .card {
+    width: 289px;
+   }
+ }
 
 .classes .card-header {
   width: 100%;
