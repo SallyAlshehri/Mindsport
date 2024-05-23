@@ -782,6 +782,10 @@ video {
   max-width: 16rem;
 }
 
+.max-w-72 {
+  max-width: 18rem;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -852,6 +856,10 @@ video {
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-5 {
@@ -1030,6 +1038,10 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .pt-14 {
@@ -1345,12 +1357,19 @@ header {
   box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
   border-radius: 6px;
   width: 300px;
+  margin: 40px;
   justify-content: center;
   height: 360px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: -moz-fit-content;
+}
+
+@media(max-width:1024px){
+  .why-us .card{
+    margin: 30px;
+  }
 }
 
 .text-stroke {
@@ -1408,7 +1427,7 @@ header {
 
 @media (max-width: 1024px) {
   .classes .card {
-    width: 289px !important;
+    width: 289px;
   }
 }
 

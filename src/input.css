@@ -168,7 +168,7 @@ header {
   box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
   border-radius: 6px;
   width: 300px;
- 
+ margin: 40px;
 justify-content: center;
   height: 360px;
   display: flex;
@@ -176,6 +176,11 @@ justify-content: center;
 
   align-items: center;
   width: -moz-fit-content;
+}
+@media(max-width:1024px){
+  .why-us .card{
+    margin: 30px;
+  }
 }
 .text-stroke {
   -webkit-text-stroke: 3px black;
