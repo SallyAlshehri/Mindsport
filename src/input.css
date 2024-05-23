@@ -12,7 +12,11 @@ body {
   font-style: normal;
   background-color: #fbfbfb;
 }
-
+/* @media  all and (max-width:360px),
+screen and (-webkit-min-device-pixel-ratio: 3.0) and (max-width: 1080px),
+screen and (-webkit-min-device-pixel-ratio: 2.0) and (max-width: 720px) {
+ 
+}  */
 .main-title h2 {
   text-align: center;
   font-size: center;
