@@ -6,6 +6,7 @@
   scroll-behavior: smooth;
 box-sizing: border-box;
 }
+html {min-height:100%;} 
 body {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
