@@ -245,6 +245,7 @@ header {
   .classes .card {
     width: 289px ;
 margin: -1px;
+transition: none;
    }
  }
  
