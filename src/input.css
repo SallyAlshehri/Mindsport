@@ -214,6 +214,13 @@ header {
   box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
   transition: 0.3s;
 }
+@media(max-width:595px){
+  .services .box {
+    width: 239px;
+  transition: none;
+  }
+
+}
 .services .box:hover {
   transform: translatey(-10px);
 }
