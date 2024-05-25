@@ -1324,7 +1324,7 @@ header {
 
 @media(max-width:1024px){
   .features .box {
-    width: 320px !important;
+    width: 320px ;
   }
 }
 
